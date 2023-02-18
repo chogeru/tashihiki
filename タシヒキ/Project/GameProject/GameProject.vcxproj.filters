@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Base">
+      <UniqueIdentifier>{0da29a34-263b-4fc0-b6b5-d82c62ed2111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{b38b71ac-3cfd-4473-b0ee-dc29a1e70b1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy">
+      <UniqueIdentifier>{d9a281e1-eca9-48c1-a089-3b525febf564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maptip">
+      <UniqueIdentifier>{56a6a11d-01e2-4816-836d-f7e22384a3af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{547205b1-7729-4565-bc3c-b4fba5f5b312}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{193fac82-d26f-4cde-98d8-5ddd3d480208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{193c793d-db5f-4567-b31b-73c07df9ef40}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="h.h" />
+  </ItemGroup>
+</Project>
