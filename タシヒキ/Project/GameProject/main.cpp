@@ -22,9 +22,7 @@ void MainLoop(void) {
 	Base::UpdateAll();
 	Base::CollisionAll();
 	Base::DrawAll();
-
-
-
+	
 }
 void Init(void)
 {
@@ -68,7 +66,8 @@ void Init(void)
 
 
 
-
+	Base::Add(new Title());
+	//Base::Add(new Canvas(CVector2D(SCREEN_WIDTH, SCREEN_HEIGHT)));
 }
 
 
