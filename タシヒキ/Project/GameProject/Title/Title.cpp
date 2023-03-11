@@ -1,6 +1,7 @@
 #include "Title.h"
-
-Title::Title():Base(eType_Scene)
+#include"../h.h"
+Title::Title():Base(eType_Scene),
+m_title_text("C:\\Windows\\Fonts\\msgothic.ttc", 64)
 {
 	m_img = COPY_RESOURCE("Title",CImage);
 }
@@ -21,5 +22,5 @@ void Title::Updata()
 void Title::Draw()
 {
 	m_img.Draw();
-	m_img.SetSize(1920, 1080);
+	//m_img.SetSize(1920, 1080);
 }
