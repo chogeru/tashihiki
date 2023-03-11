@@ -2,6 +2,7 @@
 
 Title::Title():Base(eType_Scene)
 {
+	m_img = COPY_RESOURCE("Title",CImage);
 }
 
 Title::~Title()
@@ -12,9 +13,9 @@ Title::~Title()
 
 void Title::Updata()
 {//ƒ{ƒ^ƒ“‚P‚Å”jŠü
-	if (PUSH(CInput::eButton1)) {
+	/*if (PUSH(CInput::eButton1)) {
 		m_kill = true;
-	}
+	}*/
 }
 
 void Title::Draw()

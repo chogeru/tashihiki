@@ -58,7 +58,7 @@ void Init(void)
 	//ゲーム起動時に一度だけ呼ばれる
 	//-----------------------------------------------------
 	//タイトル
-	ADD_RESOURCE("Title", CImage::CreateImage("image/title.png"));
+	ADD_RESOURCE("Title", CImage::CreateImage("Image/title.png"));
 
 
 
