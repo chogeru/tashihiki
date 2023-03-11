@@ -1,22 +1,7 @@
 #pragma once
 #include <GLLibrary.h>
 enum {
-	eType_Field,
-	eType_Player,
-	eType_Enemy,
-	eType_Player_Bullet,
-	eType_Enemy_Bullet,
-	eType_Goal,
-	eType_Effect,
-	eType_UI,
-	eType_UI2,
 	eType_Scene,
-	eType_Trap,
-	eType_ArrowTrap,
-	eType_Manual,
-	eType_Arrow,
-	eType_GameClear,
-	eType_GameOver,
 };
 
 //èdóÕâ¡ë¨ìx
