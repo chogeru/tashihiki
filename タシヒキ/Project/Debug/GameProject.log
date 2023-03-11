@@ -1,6 +1,6 @@
 ﻿  main.cpp
-C:\Users\さかな\Desktop\3月\tashihiki\タシヒキ\Project\GameProject\main.cpp(87,42): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\さかな\Desktop\3月\tashihiki\タシヒキ\Project\GameProject\main.cpp(87,39): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+D:\タシヒキ\tashihiki\タシヒキ\Project\GameProject\main.cpp(87,42): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+D:\タシヒキ\tashihiki\タシヒキ\Project\GameProject\main.cpp(87,39): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
 GLFW.lib(init.obj) : warning LNK4099: PDB '' が 'GLFW.lib(init.obj)' で、または '' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
 GLFW.lib(window.obj) : warning LNK4099: PDB '' が 'GLFW.lib(window.obj)' で、または '' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
 GLFW.lib(input.obj) : warning LNK4099: PDB '' が 'GLFW.lib(input.obj)' で、または '' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
@@ -13,11 +13,11 @@ GLFW.lib(vulkan.obj) : warning LNK4099: PDB '' が 'GLFW.lib(vulkan.obj)' で、
 GLFW.lib(win32_window.obj) : warning LNK4099: PDB '' が 'GLFW.lib(win32_window.obj)' で、または '' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
 GLFW.lib(win32_tls.obj) : warning LNK4099: PDB '' が 'GLFW.lib(win32_tls.obj)' で、または '' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
 GLFW.lib(win32_joystick.obj) : warning LNK4099: PDB '' が 'GLFW.lib(win32_joystick.obj)' で、または '' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+  glew.lib(glew.obj) : MSIL .netmodule または /GL を伴ってコンパイルされたモジュールが見つかりました。/LTCG を使用して再開始してください。リンカーのパフォーマンスを向上させるためには、コマンドラインに /LTCG を追加してください。
 GLFW.lib(wgl_context.obj) : warning LNK4099: PDB '' が 'GLFW.lib(wgl_context.obj)' で、または '' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
 GLFW.lib(egl_context.obj) : warning LNK4099: PDB '' が 'GLFW.lib(egl_context.obj)' で、または '' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-  glew.lib(glew.obj) : MSIL .netmodule または /GL を伴ってコンパイルされたモジュールが見つかりました。/LTCG を使用して再開始してください。リンカーのパフォーマンスを向上させるためには、コマンドラインに /LTCG を追加してください。
 LINK : warning LNK4075: /INCREMENTAL は /LTCG の指定によって無視されます。
-     ライブラリ C:\Users\さかな\Desktop\3月\tashihiki\タシヒキ\Project\/../Game/GameProject.lib とオブジェクト C:\Users\さかな\Desktop\3月\tashihiki\タシヒキ\Project\/../Game/GameProject.exp を作成中
+     ライブラリ D:\タシヒキ\tashihiki\タシヒキ\Project\/../Game/GameProject.lib とオブジェクト D:\タシヒキ\tashihiki\タシヒキ\Project\/../Game/GameProject.exp を作成中
 LINK : warning LNK4098: defaultlib 'LIBCMT' は他のライブラリの使用と競合しています。/NODEFAULTLIB:library を使用してください。
   コード生成しています。
   コード生成が終了しました。
@@ -75,4 +75,4 @@ LINK : warning LNK4286: シンボル 'alGetError' ('OpenAL32.lib(alError.obj)' �
 LINK : warning LNK4286: シンボル 'alGetError' ('OpenAL32.lib(alError.obj)' で定義) が 'alut.lib(alutBufferData.obj)' によってインポートされています
 LINK : warning LNK4286: シンボル 'alGenBuffers' ('OpenAL32.lib(alBuffer.obj)' で定義) が 'alut.lib(alutBufferData.obj)' によってインポートされています
 LINK : warning LNK4286: シンボル 'alBufferData' ('OpenAL32.lib(alBuffer.obj)' で定義) が 'alut.lib(alutBufferData.obj)' によってインポートされています
-  GameProject.vcxproj -> C:\Users\さかな\Desktop\3月\tashihiki\タシヒキ\Game\GameProject.exe
+  GameProject.vcxproj -> D:\タシヒキ\tashihiki\タシヒキ\Game\GameProject.exe

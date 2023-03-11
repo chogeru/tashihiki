@@ -3,7 +3,7 @@
 #define SCREEN_WIDTH 1280
 #define SCREEN_HEIGHT 720
 #include"h.h"
-#include "../GameProject/Title/Title.h"
+
 
 //--------------------------------------------
 //グローバル変数領域
@@ -58,7 +58,7 @@ void Init(void)
 	//ゲーム起動時に一度だけ呼ばれる
 	//-----------------------------------------------------
 	//タイトル
-	ADD_RESOURCE("Title", CImage::CreateImage("ゲーム用素材/画像データ/タイトル画像.png"));
+	ADD_RESOURCE("Title", CImage::CreateImage("image/title.png"));
 
 
 
