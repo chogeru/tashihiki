@@ -1,6 +1,8 @@
-﻿  main.cpp
+﻿  Title.cpp
+  main.cpp
 D:\タシヒキ\tashihiki\タシヒキ\Project\GameProject\main.cpp(87,42): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
 D:\タシヒキ\tashihiki\タシヒキ\Project\GameProject\main.cpp(87,39): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+  コードを生成中...
 GLFW.lib(init.obj) : warning LNK4099: PDB '' が 'GLFW.lib(init.obj)' で、または '' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
 GLFW.lib(window.obj) : warning LNK4099: PDB '' が 'GLFW.lib(window.obj)' で、または '' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
 GLFW.lib(input.obj) : warning LNK4099: PDB '' が 'GLFW.lib(input.obj)' で、または '' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
@@ -13,8 +15,8 @@ GLFW.lib(vulkan.obj) : warning LNK4099: PDB '' が 'GLFW.lib(vulkan.obj)' で、
 GLFW.lib(win32_window.obj) : warning LNK4099: PDB '' が 'GLFW.lib(win32_window.obj)' で、または '' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
 GLFW.lib(win32_tls.obj) : warning LNK4099: PDB '' が 'GLFW.lib(win32_tls.obj)' で、または '' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
 GLFW.lib(win32_joystick.obj) : warning LNK4099: PDB '' が 'GLFW.lib(win32_joystick.obj)' で、または '' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-  glew.lib(glew.obj) : MSIL .netmodule または /GL を伴ってコンパイルされたモジュールが見つかりました。/LTCG を使用して再開始してください。リンカーのパフォーマンスを向上させるためには、コマンドラインに /LTCG を追加してください。
 GLFW.lib(wgl_context.obj) : warning LNK4099: PDB '' が 'GLFW.lib(wgl_context.obj)' で、または '' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+  glew.lib(glew.obj) : MSIL .netmodule または /GL を伴ってコンパイルされたモジュールが見つかりました。/LTCG を使用して再開始してください。リンカーのパフォーマンスを向上させるためには、コマンドラインに /LTCG を追加してください。
 GLFW.lib(egl_context.obj) : warning LNK4099: PDB '' が 'GLFW.lib(egl_context.obj)' で、または '' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
 LINK : warning LNK4075: /INCREMENTAL は /LTCG の指定によって無視されます。
      ライブラリ D:\タシヒキ\tashihiki\タシヒキ\Project\/../Game/GameProject.lib とオブジェクト D:\タシヒキ\tashihiki\タシヒキ\Project\/../Game/GameProject.exp を作成中
